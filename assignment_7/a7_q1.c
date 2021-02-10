@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    /*GIVEN 4 NUMBERS,FIND SECOND MAXIMUM NUMBER USING ONLY AND ONLY IF-ELSE STATEMENT*/
     int a,b,c,d;
     printf("Enter first number");
     scanf("%d",&a);
