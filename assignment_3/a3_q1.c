@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main(){
+    int integer= 3434;
+    printf("The integer value is Integer= %d and is represented by (int) and its format specifier is %%d",integer);
+    printf("\n\n");
+    char	Char = 'b';
+    printf("The char value is Char= %c and is represented by char and its format specifier is %%c",Char);
+    printf("\n\n");
+    float decimal = 3.14;		
+    printf("The float value is floatl= %f and is represented by (float) and its format specifier is %%f",decimal);
+    printf("\n\n");
+    double big_No = 1234567890;	
+    printf("The integer value is double= %lf and is represented by (double) and its format specifier is %%lf",big_No);	
+    printf("\n\n");
+    short int smallNo = 45;	
+    printf("The integer value is Short Integer= %hd and is represented by (short int) and its format specifier is %%hd",smallNo);
+    printf("\n\n");
+    unsigned int positive_Only =432;		
+    printf("The integer value is Unsigned Integer= %u and is represented by (unsigned int) and its format specifier is %%u",positive_Only);
+    printf("\n\n");
+    long int big_Int= -342543;		
+    printf("The integer value is Long Integer= %ld and is represented by (long int) and its format specifier is %%ld , %%li", big_Int ); 
+    printf("\n\n");
+    long long int very_big_NO = -123456789098765;	
+    printf("The integer value is Long long Integer= %lld and is represented by (long long int) and its format specifier is %%lld,%%lli",very_big_NO);
+    printf("\n\n");	 
+    unsigned long int big_positive = 998098;
+    printf("The integer value is Integer= %lu and is represented by (unsigned long int) and its format specifier is %%lu",big_positive);
+    printf("\n\n");	
+    unsigned long long int very_big_positive = 234456778833445; 	
+    printf("The integer value is Integer= %llu and is represented by (unsigned long long int) and its format specifier is %%llu",very_big_positive);	
+    printf("\n\n");
+    signed char	char1= 'A';	
+    printf("The  value in signed char= %c and is represented by (signed char) and its format specifier is %%c",char1);
+    printf("\n\n");
+    unsigned char char2 ='1';	
+    printf("The integer value is Integer= %c and is represented by (unsigned char) and its format specifier is %%d",char2);
+    printf("\n\n");
+    long double	biggest_No = 5.32e-5;	
+    printf("The  value is long double= %Lf and is represented by (long double) and its format specifier is %%Lf",biggest_No);
+    printf("\n\n");
+    return 0;
+}
